@@ -6,10 +6,14 @@
 
 body {
   font-family: "Segoe UI", sans-serif;
-  background-color: #f5f7fa;
-  color: #333;
+  background-color: #0f1117;
+  color: #e2e8f0;
   line-height: 1.6;
   padding: 20px;
+}
+
+a {
+  color: #63b3ed;
 }
 
 header {
@@ -23,16 +27,17 @@ header {
   border-radius: 50%;
   object-fit: cover;
   margin-bottom: 15px;
+  border: 3px solid #2d3748;
 }
 
 header h1 {
   font-size: 2rem;
-  color: #1a202c;
+  color: #edf2f7;
 }
 
 header p {
   font-size: 1.1rem;
-  color: #4a5568;
+  color: #a0aec0;
   margin-top: 8px;
 }
 
@@ -43,7 +48,6 @@ header p {
 .social-links a {
   margin: 0 10px;
   text-decoration: none;
-  color: #2b6cb0;
   font-weight: bold;
 }
 
@@ -51,6 +55,7 @@ header p {
   width: 24px;
   height: 24px;
   vertical-align: middle;
+  filter: brightness(0) invert(1);
 }
 
 main {
@@ -63,8 +68,8 @@ section {
 }
 
 h2 {
-  color: #2d3748;
-  border-bottom: 2px solid #cbd5e0;
+  color: #e2e8f0;
+  border-bottom: 2px solid #2d3748;
   padding-bottom: 6px;
   margin-bottom: 15px;
 }
@@ -80,7 +85,7 @@ ul.project-list li {
 
 ul.project-list a {
   text-decoration: none;
-  color: #2c5282;
+  color: #63b3ed;
   font-weight: 500;
 }
 
