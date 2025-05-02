@@ -1,0 +1,97 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Segoe UI", sans-serif;
+  background-color: #f5f7fa;
+  color: #333;
+  line-height: 1.6;
+  padding: 20px;
+}
+
+header {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.profile-img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 15px;
+}
+
+header h1 {
+  font-size: 2rem;
+  color: #1a202c;
+}
+
+header p {
+  font-size: 1.1rem;
+  color: #4a5568;
+  margin-top: 8px;
+}
+
+.social-links {
+  margin-top: 12px;
+}
+
+.social-links a {
+  margin: 0 10px;
+  text-decoration: none;
+  color: #2b6cb0;
+  font-weight: bold;
+}
+
+.social-links img {
+  width: 24px;
+  height: 24px;
+  vertical-align: middle;
+}
+
+main {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+section {
+  margin-bottom: 40px;
+}
+
+h2 {
+  color: #2d3748;
+  border-bottom: 2px solid #cbd5e0;
+  padding-bottom: 6px;
+  margin-bottom: 15px;
+}
+
+ul.project-list {
+  list-style: none;
+  padding-left: 0;
+}
+
+ul.project-list li {
+  margin-bottom: 10px;
+}
+
+ul.project-list a {
+  text-decoration: none;
+  color: #2c5282;
+  font-weight: 500;
+}
+
+ul.project-list a:hover {
+  text-decoration: underline;
+}
+
+footer {
+  text-align: center;
+  margin-top: 60px;
+  font-size: 0.9rem;
+  color: #718096;
+}
+
